@@ -42,9 +42,8 @@ class Song
     end
   end
 
-    def self.alphabetical
-      @@all.sort_by {|title| title.name }
-    end
+  def self.alphabetical
+    @@all.sort_by {|title| title.name }
   end
 
 end
