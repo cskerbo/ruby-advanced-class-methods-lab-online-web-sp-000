@@ -50,7 +50,7 @@ class Song
     song_artist =  filename.split(" - ")[0]
     song_title = filename.split(/[\-.]/)[1]
     new_by_name(song_title)
-    @artist_name = song_artist
+    song_artist = self.new
 
   end
 
