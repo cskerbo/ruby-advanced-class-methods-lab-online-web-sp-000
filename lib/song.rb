@@ -37,7 +37,7 @@ class Song
     song_1 = self.create_by_name(name)
     song_2 = self.find_by_name(name)
     if song_1 == song_2
-      return song_2
+      song_2
     else
       self.create_by_name(name)
     end
