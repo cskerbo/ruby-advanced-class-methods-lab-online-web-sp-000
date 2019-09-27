@@ -48,5 +48,6 @@ class Song
 
   def new_from_filename(filename)
     puts filename.split(" ", 1)[1]
+  end
 
 end
