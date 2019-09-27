@@ -34,7 +34,7 @@ class Song
   end
 
   def self.find_or_create_by_name(name)
-    song_1 = name
+    song_1 = self.create_by_name(name)
     song_2 = self.find_by_name(name)
     if song_1 == song_2
       return song_2
