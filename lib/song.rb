@@ -37,7 +37,7 @@ class Song
     if find_by_name(name) == true
       return find_by_name
     else
-      create_by_name
+      create_by_name(name)
     end
   end
 
