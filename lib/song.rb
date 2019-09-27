@@ -48,7 +48,7 @@ class Song
 
   def self.new_from_filename(filename)
     puts filename.split(" - ")[0]
-    puts filename.split(" - ")[3]
+    puts filename.split(" - ")[1]
 
 
   end
