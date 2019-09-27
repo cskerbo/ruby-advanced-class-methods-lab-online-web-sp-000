@@ -39,7 +39,7 @@ class Song
     if song_1 == song_2
       return song_2
     else
-      create_by_name(name)
+      Song.create_by_name(name)
     end
   end
 
