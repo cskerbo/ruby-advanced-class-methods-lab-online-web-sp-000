@@ -27,4 +27,6 @@ class Song
     new_song.name = name
     @@all << new_song
     return new_song
+  end
+
 end
